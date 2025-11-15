@@ -1,0 +1,44 @@
+{
+    "carousel": {
+        "card1": "A 16-year-old girl died in a traffic accident in Khorezm",
+        "card2": "Chery hybrid travels 1100+ km without recharging",
+        "card3": "Japarov also denied the former president's accusation.",
+        "card4": "Moscow left Kiev under a rocket “rain”. There are victims",
+        "card5": "Today Uzbekistan will play against Egypt",
+        "card6": "UNESCO expressed gratitude to Uzbekistan",
+        "card7": "It became known who will participate in the Tashkent summit",
+        "card8": "A dangerous virus was found in wastewater in Germany",
+        "card9": "Trump ended a record 43-day shutdown",
+        "card10": "The president gave poet Usmon Azim a three-room apartment"
+    },
+    "footer": {
+        "about": "About ",
+        "buisness": "Buisness",
+        "contact": "Contact",
+        "archive": "Archive",
+        "desc1": "QALAMPIR.UZ. The Web-Site was registered as a media outlet on October 26, 2018, with the Agency for Information and Mass Communications under the Administration of the President of the Republic of Uzbekistan under number 1089.",
+        "desc2": "Founder: “QALAMPIR” LLC.",
+        "desc3": " Editorial address: 100174, Tashkent city, Beruniy street, 88-house.",
+        "desc4": "Email address: info@qalampir.uz",
+        "desc5": "© Copyright 2025 Qalampir - The truth is bitter."
+    },
+    "posts": {
+        "header": "Last news",
+        "all": "All"
+    },
+    "liked": {
+        "title": "Liked posts",
+        "empty": "No posts liked yet",
+        "unlike": "Delete"
+    },
+    "liveNews": {
+        "all": "All",
+        "news1": "Japan will deliver mammography machines to Uzbekistan.",
+        "news2": "Turkish people are seeing off their soldiers who died in a plane crash to their final destination.",
+        "news3": "Doctors in Surxondaryo were forced to work in honor of the governor.",
+        "news4": "Another Uzbek Olympic champion was banned from competitions for 3 years.",
+        "news5": "Maxim Galkin may be imprisoned for disrespecting the Israeli flag.",
+        "news6": "In Tashkent, a man shot his wife and beat her.",
+        "date": "NOVEMBER"
+    }
+}

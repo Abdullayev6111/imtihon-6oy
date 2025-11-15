@@ -1,0 +1,44 @@
+{
+    "carousel": {
+        "card1": "Xorazmdagi YTHda 16 yoshli qiz vafot etdi",
+        "card2": "Chery gibridi 1100+ km masofani qayta quvvatlashsiz bosib o'tdi",
+        "card3": "Japarov ham sobiq prezidentning ayblovini rad etdi",
+        "card4": "Moskva Kievni raketa “yomg'iri” ostida qoldirdi. Qurbonlar bor",
+        "card5": "Bugun O'zbekiston Misrga qarshi bahs olib boradi",
+        "card6": "UNESCO O'zbekistonga minnatdorlik bildirdi",
+        "card7": "Toshkent sammitida kimlar qatnashishi ma'lum bo'ldi",
+        "card8": "Germaniyada oqova suvlardan xavfli virus topildi",
+        "card9": "Tramp rekord darajada 43 kun davom etgan “shatdaun”ni yakunladi",
+        "card10": "Prezident shoir Usmon Azimga 3 xonali uy sovg'a qildi"
+    },
+    "footer": {
+        "about": "Sayt haqida",
+        "buisness": "Biznes",
+        "contact": "Aloqa",
+        "archive": "Arxiv",
+        "desc1": "QALAMPIR.UZ. Web-Site OAV sifatida 2018 yil 26 oktyabr kuni O‘zbekiston Respublikasi Prezidenti Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar agentligidan 1089 raqam bilan ro‘yxatga olingan.",
+        "desc2": "Muassis: “QALAMPIR” MChJ.",
+        "desc3": " Tahririyat manzili: 100174, Toshkent shahri, Beruniy ko‘chasi, 88-uy.",
+        "desc4": "Elektron manzil: info@qalampir.uz",
+        "desc5": "© Copyright 2025 Qalampir - Haqiqat achchiq bo‘ladi."
+    },
+    "posts": {
+        "header": "So'nggi yangiliklar",
+        "all": "Barchasi"
+    },
+    "liked": {
+        "title": "Yoqtirilgan postlar",
+        "empty": "Hozircha yoqtirilgan post yo'q",
+        "unlike": "O'chirish"
+    },
+    "liveNews": {
+        "all": "Barchasi",
+        "news1": "Yaponiya O‘zbekistonga mammografiya apparatlarini yetkazib beradi.",
+        "news2": "Turkiya aholisi aviahalokatda vafot etgan askarlarini so‘nggi manzilga kuzatmoqda.",
+        "news3": "Surxondaryoda shifokorlar hokim sharafiga majburiy mehnatga jalb qilindi.",
+        "news4": "O‘zbekistonlik yana bir Olimpiada chempioni 3 yilga musobaqalardan chetlatildi.",
+        "news5": "Maksim Galkin Isroil bayrog‘iga hurmatsizlik qilgani uchun qamalishi mumkin.",
+        "news6": "Toshkentda erkak ayoliga qurol o‘qtalib, uni kaltakladi.",
+        "date": "NOYABR"
+    }
+}
