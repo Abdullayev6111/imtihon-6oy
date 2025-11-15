@@ -26,15 +26,18 @@ const useFetch = (url) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     useEffect(() => {
-        dispatch({ type: "TOGGLE_LOADING" });
+        dispatch({
+            type: "TOGGLE_LOADING",
+        });
+
         axios
             .get(url)
-            .then((res) =>
+            .then((res) => {
                 dispatch({
                     type: "ADD_DATA",
                     payload: res.data.posts,
-                })
-            )
+                });
+            })
             .catch((err) => {
                 dispatch({
                     type: "ERROR",
@@ -42,10 +45,11 @@ const useFetch = (url) => {
                 });
             })
             .finally(() => {
-                dispatch({ type: "TOGGLE_LOADING" });
+                dispatch({
+                    type: "TOGGLE_LOADING",
+                });
             });
     }, [url]);
-
     return { ...state };
 };
 

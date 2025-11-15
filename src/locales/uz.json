@@ -11,6 +11,15 @@
         "card9": "Tramp rekord darajada 43 kun davom etgan “shatdaun”ni yakunladi",
         "card10": "Prezident shoir Usmon Azimga 3 xonali uy sovg'a qildi"
     },
+      "header": {
+        "congregation": "Jamiyat",
+        "universe":"Olam",
+        "art":"San'at madaniyat",
+        "interview": "Intervyu",
+        "sport": "Sport",
+        "tech": "Texnologiya",
+        "saved": "Saqlanganlar"
+    },
     "footer": {
         "about": "Sayt haqida",
         "buisness": "Biznes",

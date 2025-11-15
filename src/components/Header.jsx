@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
 import HeaderLogo from "../assets/images/qalampir-logo.png";
 import LanguageSelect from "./Language-selector/LanguageSelect";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+    const { t } = useTranslation();
     return (
         <header>
             <div className="container header-nav">
@@ -21,13 +23,13 @@ function Header() {
                     </h2>
                 </NavLink>
                 <div className="navbar-content">
-                    <NavLink to="/">Jamiyat</NavLink>
-                    <NavLink to="/">Olam</NavLink>
-                    <NavLink to="/">San'at madaniyat</NavLink>
-                    <NavLink to="/">Intervyu</NavLink>
-                    <NavLink to="/">Sport</NavLink>
-                    <NavLink to="/">Texnolohiya</NavLink>
-                    <NavLink to="/liked-posts">Saqlanganlar</NavLink>
+                    <NavLink to="/">{t("header.congregation")}</NavLink>
+                    <NavLink to="/">{t("header.universe")}</NavLink>
+                    <NavLink to="/">{t("header.art")}</NavLink>
+                    <NavLink to="/">{t("header.interview")}</NavLink>
+                    <NavLink to="/">{t("header.sport")}</NavLink>
+                    <NavLink to="/">{t("header.tech")}</NavLink>
+                    <NavLink to="/liked-posts">{t("header.saved")} ❤️</NavLink>
                 </div>
                 <LanguageSelect />
             </div>

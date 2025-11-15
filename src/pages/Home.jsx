@@ -1,13 +1,14 @@
 import { useTranslation } from "react-i18next";
 import CarouselEl from "../components/CarouselEl";
 import PostCard from "../components/Post/PostCard";
-import useFetch from "../hooks/useFetch";
 import { useEffect } from "react";
 import toast from "react-hot-toast";
 import { Bounce, ToastContainer } from "react-toastify";
+import useFetch from "../hooks/useFetch";
 function Home() {
     const { t } = useTranslation();
-    const { data, error, loading } = useFetch("https://dummyjson.com/posts");
+
+    const { data, loading, error } = useFetch("https://dummyjson.com/posts");
 
     useEffect(() => {
         if (error) {

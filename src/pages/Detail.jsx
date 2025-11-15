@@ -9,16 +9,20 @@ import { useTranslation } from "react-i18next";
 function Detail() {
     const { t } = useTranslation();
     const { id } = useParams();
-
     const [post, setPost] = useState(null);
-    const { likedPosts, setLikedPosts } = useAppContext();
 
     useEffect(() => {
         axios
             .get(`https://dummyjson.com/posts/${id}`)
-            .then((res) => setPost(res.data))
-            .catch((err) => console.error(err));
-    }, [id]);
+            .then((res) => {
+                setPost(res.data);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    });
+
+    const { likedPosts, setLikedPosts } = useAppContext();
 
     const isLiked = post ? likedPosts.some((p) => p.id === post.id) : false;
 
@@ -35,9 +39,9 @@ function Detail() {
     return (
         <div className="container detail">
             <div className="detail-socials">
-                <FaFacebookF color="#1877F2" />
-                <FaTelegramPlane color="#0088cc" />
-                <FaTwitter color="#0088cc" />
+                <FaFacebookF color="#1877F2" className="social-app" />
+                <FaTelegramPlane color="#0088cc" className="social-app" />
+                <FaTwitter color="#0088cc" className="social-app" />
             </div>
             <div className="detail-main-card">
                 <div className="detail-main-top">
@@ -129,13 +133,45 @@ function Detail() {
                     src={`https://picsum.photos/seed/picsum/800/600`}
                     alt=""
                 />
+                <div
+                    style={{
+                        display: "flex",
+                        gap: 20,
+                        cursor: "pointer",
+                        marginTop: 10,
+                    }}
+                    className="reaction-buttons"
+                >
+                    <p
+                        style={{
+                            fontSize: 16,
+                            color: "#ffffffe6",
+                            fontFamily: "inter-r",
+                            fontWeight: 400,
+                        }}
+                    >
+                        <i className="fa-solid fa-thumbs-up"></i>{" "}
+                        {post?.reactions?.likes}
+                    </p>
+                    <p
+                        style={{
+                            fontSize: 16,
+                            color: "#ffffffe6",
+                            fontFamily: "inter-r",
+                            fontWeight: 400,
+                        }}
+                    >
+                        <i className="fa-solid fa-thumbs-down"></i>{" "}
+                        {post?.reactions?.dislikes}
+                    </p>
+                </div>
                 <h3
                     style={{
                         fontSize: 16,
                         color: "#ffffffe6",
                         fontFamily: "inter-r",
                         fontWeight: 400,
-                        marginTop: 15,
+                        marginTop: 10,
                     }}
                 >
                     {post?.body}

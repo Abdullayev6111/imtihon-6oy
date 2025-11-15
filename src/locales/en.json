@@ -11,6 +11,15 @@
         "card9": "Trump ended a record 43-day shutdown",
         "card10": "The president gave poet Usmon Azim a three-room apartment"
     },
+    "header": {
+        "congregation": "Congregation",
+        "universe":"Universe",
+        "art":"Art and Culture",
+        "interview": "Interview",
+        "sport": "Sport",
+        "tech": "Technologia",
+        "saved": "Saved"
+    },
     "footer": {
         "about": "About ",
         "buisness": "Buisness",

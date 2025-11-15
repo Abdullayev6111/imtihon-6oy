@@ -403,8 +403,16 @@ footer {
     position: absolute;
     top: 0;
     left: -60px;
-    cursor: pointer;
     border: 1px solid #5857575e;
+}
+
+.social-app {
+    transition: transform 0.3s ease;
+}
+
+.social-app:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .detail-main-card {
@@ -426,6 +434,11 @@ footer {
     font-weight: 600;
     font-size: 34px;
     color: #ffffffe6;
+    transition: all 0.2s linear;
+}
+
+.detail-main-top h1:hover {
+    color: #e31e24;
 }
 
 .detail-main-img {
@@ -433,4 +446,16 @@ footer {
     height: 500px;
     margin-top: 30px;
     border-radius: 7px;
+}
+
+.reaction-buttons p {
+    transition: all 0.2s linear;
+}
+
+.reaction-buttons p:first-child:hover {
+    color: #1877f2 !important;
+}
+
+.reaction-buttons p:last-child:hover {
+    color: #e31e24 !important;
 }

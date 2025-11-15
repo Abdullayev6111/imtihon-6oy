@@ -51,7 +51,7 @@ const data = [
 
 function CarouselEl() {
     const { t } = useTranslation();
-    const autoplay = useRef(Autoplay({ delay: 5000 }));
+    const autoplay = useRef(Autoplay({ delay: 3000 }));
     const slides = data.map((item, index) => (
         <Carousel.Slide key={index}>
             <div
